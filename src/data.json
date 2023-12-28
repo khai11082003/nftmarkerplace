@@ -1,0 +1,125 @@
+{
+    "News": [
+        {
+            "image": "https://enefti.modeltheme.com/wp-content/uploads/2022/01/Main-post01-1024x643.jpg",
+            "src":"https://dantri.com.vn/",
+            "title":"Oriental Dwarf Kingfisher",
+            "desc":"Bring to the table win-win survival strategies to ensure proactive domination. At the end of..."
+        },
+        {
+            "image": "https://enefti.modeltheme.com/wp-content/uploads/2022/01/Main-post01-1024x643.jpg",
+            "src":"https://dantri.com.vn/",
+            "title":"Oriental Dwarf Kingfisher",
+            "desc":"Bring to the table win-win survival strategies to ensure proactive domination. At the end of..."
+        },
+        {
+            "image": "https://enefti.modeltheme.com/wp-content/uploads/2022/01/Main-post01-1024x643.jpg",
+            "src":"https://dantri.com.vn/",
+            "title":"Oriental Dwarf Kingfisher",
+            "desc":"Bring to the table win-win survival strategies to ensure proactive domination. At the end of..."
+        }
+    ],
+    "product": [
+    {
+        "id": "2",
+        "title": "Azuki#9990",
+        "image": "https://enefti.modeltheme.com/wp-content/uploads/2022/02/9990.png-600x600.png",
+        "Price": "402.48",
+        "hot": true
+    },
+    {
+        "id": "2",
+
+        "title": "Azuki#9990",
+        "image": "https://enefti.modeltheme.com/wp-content/uploads/2022/02/9990.png-600x600.png",
+        "Price": "402.48",
+        "hot": true
+
+    },
+    {
+        "id": "1",
+
+        "title": "Azuki#9990",
+        "image": "https://enefti.modeltheme.com/wp-content/uploads/2022/02/9990.png-600x600.png",
+        "Price": "402.48",
+        "hot": true,
+        "quality": 1
+
+    },
+    {
+        "id": "2",
+
+        "title": "Azuki#9990",
+        "image": "https://enefti.modeltheme.com/wp-content/uploads/2022/02/9990.png-600x600.png",
+        "Price": "402.48"
+    },
+    {
+        "id": "2",
+
+        "title": "Azuki#9990",
+        "image": "https://enefti.modeltheme.com/wp-content/uploads/2022/02/9990.png-600x600.png",
+        "Price": "402.48"
+    },
+    {        "id": "2",
+
+        "title": "Azuki#9990",
+        "image": "https://enefti.modeltheme.com/wp-content/uploads/2022/02/9990.png-600x600.png",
+        "Price": "402.48"
+    },
+    {
+        "id": "2",
+        "title": "Azuki#9990",
+        "image": "https://enefti.modeltheme.com/wp-content/uploads/2022/02/9990.png-600x600.png",
+        "Price": "402.48"
+    },
+    {
+        "id": "2",
+
+        "title": "Azuki#9990",
+        "image": "https://enefti.modeltheme.com/wp-content/uploads/2022/02/9990.png-600x600.png",
+        "Price": "402.48"
+    },
+    {
+        "id": "2",
+
+        "title": "Azuki#9990",
+        "image": "https://enefti.modeltheme.com/wp-content/uploads/2022/02/9990.png-600x600.png",
+        "Price": "402.48"
+    },{
+        "id": "2",
+
+        "title": "Azuki#9990",
+        "image": "https://enefti.modeltheme.com/wp-content/uploads/2022/02/9990.png-600x600.png",
+        "Price": "402.48"
+    },{
+        "id": "2",
+
+        "title": "Azuki#9990",
+        "image": "https://enefti.modeltheme.com/wp-content/uploads/2022/02/9990.png-600x600.png",
+        "Price": "402.48"
+    },{
+        "id": "2",
+
+        "title": "Azuki#9990",
+        "image": "https://enefti.modeltheme.com/wp-content/uploads/2022/02/9990.png-600x600.png",
+        "Price": "402.48",
+        "hot": true
+    },{
+        "id": "2",
+
+        "title": "Azuki#9990",
+        "image": "https://enefti.modeltheme.com/wp-content/uploads/2022/02/9990.png-600x600.png",
+        "Price": "402.48"
+    },{
+        "id": "2",
+
+        "title": "Azuki#9990",
+        "image": "https://enefti.modeltheme.com/wp-content/uploads/2022/02/9990.png-600x600.png",
+        "Price": "402.48"
+    },{
+        "id": "2",
+        "title": "Azuki#9990",
+        "image": "https://enefti.modeltheme.com/wp-content/uploads/2022/02/9990.png-600x600.png",
+        "Price": "402.48"
+    }
+]}

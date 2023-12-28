@@ -1,0 +1,153 @@
+.Bottom__header{
+    margin-top: 30px; 
+    .Bottom{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .list__item{
+            margin-left: -40px;
+            .item{
+                margin-right: 30px;
+                cursor: pointer;
+                &:hover{
+                    color: rgba(29, 29, 244, 0.836);
+                }
+            }
+        }
+        .sign__in{
+           a{
+            &:hover{
+                color: rgba(29, 29, 244, 0.836);
+            }
+           } 
+        }
+        .list__item--sign{
+            display: flex;
+            width: 80%;
+            justify-content: space-between;
+        }
+        .logo{
+            display: flex;
+            align-items: center;
+            font-weight: 500;
+            .brand{
+                font-size: 25px;
+            }
+        }
+    }
+}
+.preview__header {
+    display: flex;
+    font-size: 12px;
+    height: 54px;
+
+    background-color: #262626;
+    z-index: 100;
+    justify-content: space-between;
+    align-items: center;
+
+    .preview__actions {
+        margin-right: 20px;
+
+        .preview__action--buy {
+            width: 90px;
+            height: 33px;
+            border-radius: 6px;
+            background-color: #82b440;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+
+            &:hover {
+                background-color: #82b44095;
+            }
+        }
+    }
+
+    .preview__envato-logo {
+        float: left;
+        padding: 0 20px;
+        font-weight: 500;
+
+        .header-envato_market {
+            font-size: 23px;
+
+            span {
+                font-size: 23px;
+                font-weight: 300;
+                position: relative;
+                right: 4px;
+                color: #82b440;
+            }
+        }
+
+        .preview__envato-logo a {
+            display: inline-block;
+            position: absolute;
+            top: 18px;
+            text-indent: -9999px;
+            height: 18px;
+            width: 152px;
+            background-size: 152px 18px;
+        }
+    }
+}
+
+.Main__Header {
+    position: relative;
+
+    .Top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+        .create__nft {
+            .button__nft {
+                width: 140px;
+                height: 44px;
+                display: flex;
+                font-weight: 500;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+                margin-left: 20px;
+                position: relative;
+                overflow: hidden;
+                border-radius: 5px;
+                z-index: 3;
+                &::before {
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: 0%;
+                    width: 200%;
+                    height: 100%;
+                    background: linear-gradient(to right, #D01498, #647ECB, #647ECB, #D01498);
+                    z-index: -1;
+                    transition: left 0.5s ease-in-out;
+                }
+                &:hover::before{
+                    left: -100%;
+                }
+            }
+
+            align-items: center;
+            display: flex;
+
+
+        }
+
+    }
+
+    .row {
+        position: absolute;
+        width: 100%;
+        border-bottom: solid 0.6px #9b9b9b;
+        top: 82px;
+        margin-bottom: 20px;
+    }
+
+}

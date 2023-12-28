@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css");
+h2,p{
+  margin: 0px;
+}
+.hidden{
+  display: none;
+}
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Raleway', sans-serif;}
+*{
+  font-size: 14px;
+  box-sizing: border-box;
+  color: #fff;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}
+.list__item {
+  ul {
+      display: flex;
+
+      li {
+          margin-right: 15px;
+          a{
+              i{
+                  color: #9b9b9b;
+                  &:hover{
+                    color: #535050;
+                  }
+              }
+          }
+      }
+  }
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+}
+.sub__container{
+  width: 80%;
+}
+ul{
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+@media (min-width: 475px){}
+@media (max-width: 760px){
+
+  .content{
+    display: block !important;
+  }
+  
+  .content strong{
+    font-size: 55px !important;
+  }
+  .content img{
+    width: 100% !important;
+  }
+  .account{
+    margin-right: 10px;
+
+  }
+  .account i{
+    padding: 10px;
+    background: linear-gradient(to right, #D01498,#647ECB);
+    overflow: hidden;
+    border-radius: 50%;
+    cursor: pointer;
+
+  }
+  .active{
+    display: none;
+  }
+  .sub__container{
+    width: 90%;
+  }
+  .inner__logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .hidden{
+    display: inline-block;
+  }
+  .icon__bar {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  .sub__container{
+    width: 90%;
+  }
+  .preview__header{
+    width: 100%;
+  }
+  .icon__bar i{
+    font-size: 30px;
+  }
+  .list__item--sign .list__item{
+    width: 100%;
+  }
+  .list__item--sign .list__item ul{
+    flex-direction: column !important;
+    position: relative;
+
+    width: 100%;
+
+  }
+  .list__item--sign .list__item ul li{
+    background-color: #9b9b9b;
+    padding: 15px;
+    width: calc(100vw + 3px);
+  }
+  .sign__in{
+    display: none;
+  }
+  .Main__Header .Bottom .Top{
+    display: flex !important;
+    text-align: center;
+  }
+}
+@media (max-width: 870px){
+  .HomePage .section__three .list__box {
+    display: block !important;
+
+  }
+  .detail{
+    display: block !important;
+  }
+  .footer .Footer .inner__item{
+    overflow-x: scroll;
+  }
+  .footer .Footer .inner__item::-webkit-scrollbar {
+    width: 0px;
+  }
+  .footer .Footer .middle__footer {
+    display: block !important;
+  }
+  .footer .Footer .inner__item .footer__item img {
+  scale: 0.4 !important;
+  }
+  .footer .Footer .bottom__footer .content__1{
+    margin-bottom: 20px !important;
+  }
+  .footer .Footer .bottom__footer{
+    display: block !important;
+  }
+  .HomePage .New .list__new .new__item
+  {
+
+  }  .HomePage .New .list__new{
+    display: block !important;
+  }
+  .HomePage .section__three .list__box .description{
+    margin-bottom: 20px;
+  }
+  .HomePage .Nft .list__item--cart .text .image img{
+    width: 160% !important;
+    height: auto;
+  }
+  .HomePage .Nft .list__item--cart{
+    display: block !important;
+  }
+  .Main__Header .Top{
+    display: block !important;
+    text-align: center;
+  }
+  .Main__Header .row {
+    top: 110px !important;
+  }
+  .Main__Header .Top .create__nft {
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 1024px){
+ 
+  strong
+  {
+    font-size: 40px !important;
+  }
+  .content .text__content h2 {
+    font-size: 35px !important;
+    line-height: 1.2;
+    color: #fff;
+    font-weight: 400;
+}
+  .content .image img {
+    width: 50%;
+    height: auto;
+}
+  .Bottom__header .Bottom{
+    .sign__in{
+      white-space: nowrap;
+
+    }
+ 
+    .sign__in a{
+      white-space: nowrap;
+
+    }
+
+    .list__item{
+      .item{
+        margin-right: 20px;
+        white-space: nowrap;
+      }
+    }
+    display: block !important;
+    .list__item--sign{
+      position: absolute;
+    }
+    .logo{
+      display: flex;
+      justify-content: center;
+      margin-bottom: 10px;
+    }
+  }
+}
+@media (max-width: 1204px){
+  .HomePage .Nft .list__item--cart{
+    gap:15px !important;
+  }
+  .HomePage .Nft .list__item--cart .text {
+    scale: 0.85;
+}
+  .content img{
+    width: 50%;
+    height: auto;
+
+  }
+
+}
