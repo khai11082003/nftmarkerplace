@@ -13,8 +13,7 @@ export default function Footer() {
                     <div className="footer__item"><img src="https://enefti.modeltheme.com/wp-content/uploads/2022/01/Main-Client3.png" alt="Client 3" data-lazy-src="https://enefti.modeltheme.com/wp-content/uploads/2022/01/Main-Client3.png" data-ll-status="loaded" class="entered lazyloaded"/></div>
                     <div className="footer__item"><img src="https://enefti.modeltheme.com/wp-content/uploads/2022/01/Main-Client2.png" alt="Client 2" data-lazy-src="https://enefti.modeltheme.com/wp-content/uploads/2022/01/Main-Client2.png" data-ll-status="loaded" class="entered lazyloaded"/></div>
                   </div>
-                  <div className="row"></div>
-                 
+
                   <div className="middle__footer">
                     <div className="middle__footer--item">
                       <div className="title">Our Address</div>
@@ -59,46 +58,14 @@ export default function Footer() {
                     </div>
                     <div className="social__contact">
                   <div className="list__item" >
-                            <ul>
-                                <li>
-                                    <a href='/'><i class="fa-brands fa-telegram" style={{
-                    fontSize: "20px",
-                  }}></i></a>
-                                </li>
-                                <li>
-                                    <a href='https://www.facebook.com/' target='blank'>
-                                        <i class="fa-brands fa-facebook" style={{
-                    fontSize: "20px",
-                  }}></i>                    </a>
-                                </li>
-                                <li>
-                                    <a href='/'>
-                                        <i class="fa-brands fa-twitter" style={{
-                    fontSize: "20px",
-                  }}></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href='/'>
-                                        <i class="fa-brands fa-discord" style={{
-                    fontSize: "20px",
-                  }}></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href='/'>
-                                        <i class="fa-brands fa-linkedin" style={{
-                    fontSize: "20px",
-                  }}></i>
-                                    </a>
-                                </li>
-                            </ul>
+                           
                         </div>
                         <div className="input__send">
-                          <input type="text" placeholder='Enter your email'/>
+                          <div className="input" ><input type="text" placeholder='Enter your email'/>
+
+</div><i class="fa-solid fa-paper-plane" style={{color: "rgb(65,88,208)",fontSize: "18px"}}></i>
                         </div>
                   </div>
-                  <div className="row"></div>
                   <div className="bottom__footer">
                     <div className="content__1">Copyright by ModelTheme. All Rights Reserved.
 

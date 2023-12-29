@@ -2,13 +2,20 @@ import React from 'react'
 import TopHeader from '../components/Header/TopHeader'
 import './index.scss'
 import MainHeader from '../components/Header/MainHeader'
-import { useSelector } from 'react-redux'
+import { useDispatch, useSelector } from 'react-redux'
 import { Link } from 'react-router-dom'
 import Footer from '../components/Footer/Footer'
+import { buy, increment } from '../action'
 export default function MainPage () {
   const list = useSelector(state => state.list)
   const New = useSelector(state => state.new)
-  console.log(New);
+  const dispatch = useDispatch()
+  function handleBuy(id) {
+    setTimeout(() => {
+      dispatch(buy(id));
+    dispatch(increment(id));
+    },1000)
+  }
   const listhot = list.length === 0 ? null : list.filter((data) =>  data.hot === true)
   return (
     <div className="HomePage">
@@ -56,11 +63,10 @@ export default function MainPage () {
         {list.length === 0 ? (<div>Loading...</div>) : list.map((data) => {
           return <div className='text'>
                   <div className="image">
-                    <img src= {data.image}/>
+                   <Link to = {data.id}> <img src= {data.image}/></Link>
                   </div>
                   <Link className="content__nft" to = {data.id}>
                       {data.title}
-                      <i class="fa-regular fa-heart"></i>
                     </Link>
                     <div className="price">
                       Receive Price:<br/>${data.Price}
@@ -68,11 +74,11 @@ export default function MainPage () {
                     <div className="button__container">
                     <button style={{
                       color: "#fff",
-                    }}>
+                    }} >
                     <i class="fa-solid fa-cart-shopping" style={{
                       color: "#fff",
                     }}></i>
-                    ADD TO CARD
+                                     {data.Buy ? <Link to = "Buy" style={{color: "#fff"}}>VIEW CARD</Link> :<span onClick={() => handleBuy(data.id)} style={{color: "#fff"}}>ADD TO CARD</span>}
                     </button>
                     </div>
                 </div>
@@ -146,7 +152,6 @@ export default function MainPage () {
                   </div>
                   <Link className="content__nft" to = {data.id}>
                       {data.title}
-                      <i class="fa-regular fa-heart"></i>
                     </Link>
                     <div className="price">
                       Receive Price:<br/>${data.Price}
@@ -158,7 +163,7 @@ export default function MainPage () {
                     <i class="fa-solid fa-cart-shopping" style={{
                       color: "#fff",
                     }}></i>
-                    ADD TO CARD
+                    {data.Buy ? <Link to = "Buy" style={{color: "#fff"}}>VIEW CARD</Link> : <span style={{color: "#fff"}} onClick={() => handleBuy(data.id)}>ADD TO CARD</span>}
                     </button>
                     </div>
                 </div>

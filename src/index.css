@@ -49,7 +49,7 @@ ul{
   padding: 0px;
   list-style-type: none;
 }
-@media (min-width: 475px){}
+
 @media (max-width: 760px){
 
   .content{
@@ -103,19 +103,23 @@ ul{
     font-size: 30px;
   }
   .list__item--sign .list__item{
-    width: 100%;
+    width: 98%;
   }
   .list__item--sign .list__item ul{
     flex-direction: column !important;
-    position: relative;
-
-    width: 100%;
-
+   position: absolute;
+   top: 0px;
+    right: -20%;
   }
   .list__item--sign .list__item ul li{
     background-color: #9b9b9b;
     padding: 15px;
-    width: calc(100vw + 3px);
+
+
+  }
+  .Bottom__header .Bottom .list__item .item {
+    margin: 0px !important;
+    width: 100%
   }
   .sign__in{
     display: none;
@@ -126,6 +130,13 @@ ul{
   }
 }
 @media (max-width: 870px){
+  .fix{
+    margin-left: "100px",
+    
+  }
+  header{
+    padding-bottom: 40px !important;
+  }
   .HomePage .section__three .list__box {
     display: block !important;
 
@@ -181,6 +192,9 @@ ul{
   }
 }
 @media (max-width: 1024px){
+  header{
+    padding-bottom: 40px !important;
+  }
  
   strong
   {
@@ -237,4 +251,49 @@ ul{
 
   }
 
+}
+input:focus{
+   outline: none;
+   color: #000 !important;
+}
+.button {
+  font-weight: 700 !important;
+  font-size: 16px;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+  
+}
+
+.detail .content__detail .button__detail .inner__button button{
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.detail .content__detail .button__detail .inner__button{
+  width: 110px;
+  height: 38px;
+  border: 1px solid #9b9b9b7e;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 3px;
+  .counter{
+    font-size: 16px;
+  }
+}
+.detail .content__detail .button__detail .add{
+  height: 38px;
+  width: 140px !important;
+}
+textarea{
+  padding: 20px 10px;
+}
+textarea:focus{
+  outline: none;
+}
+input{
+  padding-left: 10px;
 }

@@ -101,6 +101,7 @@
             display: grid;
             gap: 60px;
             grid-template-columns: 1fr 1fr 1fr 1fr;
+            height: auto;
             .box__title{
                 margin-top: 10px;
                 margin-bottom: 10px;
@@ -188,11 +189,13 @@
               }
             align-content: center;
             grid-template-columns: 1fr 1fr 1fr 1fr;
+            height: auto;
             justify-content: center;
             align-items: center; /* Can giữa theo chiều dọc */
             justify-content: center;
             transform-origin: top middle;
             gap: 35px;
+         
             .text{
                 .button__container{
                     display: flex;

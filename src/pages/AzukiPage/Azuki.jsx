@@ -96,7 +96,7 @@ export default function Azuki () {
                   ${dataRender.Price*dataRender.quality}
                 </div>
               )}
-              <div className='row'></div>
+              <div className='row__1'></div>
               <div className='sub__title' style={{ color: '#000' }}>
                 collection
               </div>
@@ -117,14 +117,22 @@ export default function Azuki () {
               </div>
               <p
                 style={{
-                  color: '#000',
+                  color: '#8b8b8a',
                   marginTop: '20px',
-                  lineHeight: '25px'
+                  lineHeight: '25px',
+                  fontSize: "15px"
+                
                 }}
               >
                 SKU: 223145873
                 <br />
-                Category: Azuki
+                Category: <b style={{
+                  color: '#8b8b8a',
+                  marginTop: '20px',
+                  lineHeight: '25px',
+                  fontSize: "15px"
+                
+                }}>Azuki</b>
                 <br />
                 Presale: No
                 <br />

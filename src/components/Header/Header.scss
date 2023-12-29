@@ -8,6 +8,8 @@
             margin-left: -40px;
             .item{
                 margin-right: 30px;
+                font-weight: 500;
+                white-space: nowrap;
                 cursor: pointer;
                 &:hover{
                     color: rgba(29, 29, 244, 0.836);
@@ -109,7 +111,7 @@
                 width: 140px;
                 height: 44px;
                 display: flex;
-                font-weight: 500;
+                font-weight: 700;
                 justify-content: center;
                 align-items: center;
                 cursor: pointer;
@@ -144,10 +146,11 @@
 
     .row {
         position: absolute;
-        width: 100%;
+        width: 97vw;
         border-bottom: solid 0.6px #9b9b9b;
         top: 82px;
         margin-bottom: 20px;
     }
 
 }
+
