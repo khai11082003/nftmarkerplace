@@ -15,7 +15,7 @@ export default function Azuki () {
   const data = useSelector((state) => state.list)
   const currentURL = window.location.href
   const index = currentURL.indexOf('locolhost1000.vercel.app')
-  const result = currentURL.substring(index + 15)
+  const result = currentURL.substring(index + 25)
   const dispatch = useDispatch();
   const dataRender = data.find((data) => data.id === result)
   const handleIncrement = (id) => {
