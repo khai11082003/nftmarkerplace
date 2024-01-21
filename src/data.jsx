@@ -7,3 +7,4 @@ function handle(data) {
     return data;
 }
 export const init = handle();
+console.log(init);

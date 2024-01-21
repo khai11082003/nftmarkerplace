@@ -21,17 +21,7 @@
     ],
     "product": [
     {
-        "id": "2",
-        "title": "Azuki#9990",
-        "image": "https://enefti.modeltheme.com/wp-content/uploads/2022/02/9990.png-600x600.png",
-        "Price": "402.48",
-        "hot": true,
-        "Buy": false,
-        "quality": 0
-    },
-    {
-        "id": "2",
-
+        "id": "1",
         "title": "Azuki#9990",
         "image": "https://enefti.modeltheme.com/wp-content/uploads/2022/02/9990.png-600x600.png",
         "Price": "402.48",
@@ -42,6 +32,16 @@
     },
     {
         "id": "2",
+        "title": "Azuki#9990",
+        "image": "https://enefti.modeltheme.com/wp-content/uploads/2022/02/9990.png-600x600.png",
+        "Price": "402.48",
+        "hot": true,
+        "Buy": false,
+        "quality": 0
+
+    },
+    {
+        "id": "3",
 
         "title": "Azuki#9990",
         "image": "https://enefti.modeltheme.com/wp-content/uploads/2022/02/9990.png-600x600.png",

@@ -1,0 +1,63 @@
+.createNft{
+    background-color: #000;
+    padding: 20px 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    .positionCreate{
+        display: flex;
+        align-items: center;
+        .inner-li{
+            display: flex;
+            margin-left: 20px;
+            li{
+                list-style-type: none;
+                font-size: 16px;
+                font-weight: 400;
+                margin-left: 60px;
+                margin-right: 20px;
+                cursor: pointer;
+                &:hover{
+                    color: #D01498;
+                }
+            }
+        }
+        .innet__button--create{
+            
+            display: flex;
+            button{
+                width: 150px;
+                height: 55px;
+                border-radius: 10px;
+                margin-left: 20px;
+                width: 140px;
+                height: 52px;
+                display: flex;
+                font-weight: 700;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+                border: 0px;
+                margin-left: 20px;
+                position: relative;
+                overflow: hidden;
+                border-radius: 8px;
+                z-index: 3;
+                &::before {
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: 0%;
+                    width: 200%;
+                    height: 100%;
+                    background: linear-gradient(to right, #D01498, #647ECB, #647ECB, #D01498);
+                    z-index: -1;
+                    transition: left 0.5s ease-in-out;
+                }
+                &:hover::before{
+                    left: -100%;
+                }
+            }
+        }
+    }
+}

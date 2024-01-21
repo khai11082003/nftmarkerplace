@@ -1,0 +1,102 @@
+.main-create{
+    .inner--filter{
+    
+        font-size: 18px;
+        font-weight: 500;
+        padding-top: 10px;
+       
+    }
+    .inner--category{
+        display: flex;
+        margin-top: 10px;
+        justify-content: space-between;
+        align-items: center;
+        .but{
+            display: flex;
+            .cate{
+                cursor: pointer;
+                &:hover{
+                    color:#D01498;
+                }
+                margin-right: 20px;
+                width: 130px;
+                height: 30px;
+                border-radius: 20px;
+                font-weight: bold;
+                background-color: #000;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+    .title-create{
+
+        .inner-title{
+            padding-top: 20px;
+            font-size: 20px;
+            text-align: center;
+            
+        }
+    }
+}
+
+.container-create{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.inner-box{
+    .box1{
+        .box1--main{
+            margin-top: 100px;
+            .submit{
+                margin-left: 360px;
+                width: 180px;
+                height: 40px;
+                background-color: #000;
+                border: 1px solid #000;
+                cursor: pointer;
+                &:hover{
+                    background-color: #00000000;
+                }
+                &:focus{
+                    outline: none;
+                }
+            }
+            .box{
+                margin-bottom: 20px;
+                .kai{
+                    display: none;
+                }
+                input{
+                    width: 70%;
+                    color: #fff;
+                    &:focus{
+                        color: #fff !important;
+                        outline: none !important;
+                    }
+                    background-color: #151515;
+                }
+                textarea{
+                    background-color: #151515;
+                }
+                .button-1{
+                    width: 200px;
+                    cursor: pointer;
+                    border: 1px solid #000;
+                    &:hover{
+                        background-color: #00000000;
+                    }
+                    margin-right: 20px;
+                    background-color: #000;
+                    height: 40px;
+                    border-radius: 10px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                display: flex;
+            }
+        }
+    }
+}

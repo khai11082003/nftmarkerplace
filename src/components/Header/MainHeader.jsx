@@ -89,7 +89,7 @@ export default function MainHeader() {
                             <li className="item">Purchase</li>
                         </ul>
                     </div>
-                    <div className="fix" >  <Link to = "Buy">  <i class="fa-solid fa-cart-shopping" style={
+                    <div className="fix hidd" >  <Link to = "Buy">  <i class="fa-solid fa-cart-shopping" style={
                         {
                             fontSize: "28px",
                          

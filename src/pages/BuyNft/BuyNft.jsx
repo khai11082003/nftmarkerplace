@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import MainHeader from '../../components/Header/MainHeader'
 import Footer from '../../components/Footer/Footer'
 import { increment,decrement, remove } from '../../action'
@@ -7,9 +7,9 @@ import { Link } from 'react-router-dom'
 import { useDispatch, useSelector } from 'react-redux'
 export default function BuyNft() {
   let total = 0;
-  const sum = (price) => {
-    total += parseFloat(price)
-  }
+      const sum = (price,quality) => {
+      total += parseFloat(price)*quality
+    } 
     const dispatch = useDispatch()
    const  MyCart = useSelector(state => state.list);
    const removeProduct = (id) => {
@@ -98,7 +98,9 @@ Cart
             </div>
             :
             Cart.map((data) => {
-              sum(data.Price)
+              sum(data.Price ,data.quality)
+              console.log(total);
+
                 return(
                     <div className='product__item'>
                         <img src={data.image}/>

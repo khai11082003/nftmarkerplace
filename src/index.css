@@ -51,6 +51,9 @@ ul{
 }
 
 @media (max-width: 760px){
+  .hidd{
+    display: none;
+  }
 
   .content{
     display: block !important;
@@ -172,7 +175,7 @@ ul{
     margin-bottom: 20px;
   }
   .HomePage .Nft .list__item--cart .text .image img{
-    width: 160% !important;
+    width: 100% !important;
     height: auto;
   }
   .HomePage .Nft .list__item--cart{
