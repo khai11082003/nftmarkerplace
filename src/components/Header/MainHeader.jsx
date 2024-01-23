@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import "./Header.scss"
 import { Link } from 'react-router-dom'
 export default function MainHeader() {
     const [active,setActive] = useState(true);

@@ -20,7 +20,6 @@ export default function MainPage () {
   return (
     <div className="HomePage">
       <div className='MainPage'>
-      <TopHeader />
       <MainHeader />
       <div className='brands container'>
         <div className='content sub__container'>
